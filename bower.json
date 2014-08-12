@@ -1,0 +1,21 @@
+{
+  "name": "scrollzones",
+  "version": "0.0.0",
+  "authors": [
+    "Kyle Stetz <kyle@punkave.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory": "js/vendor/",
+  "dependencies": {
+    "jquery": "*",
+    "less": "*"
+  },
+  "homepage": "none"
+}

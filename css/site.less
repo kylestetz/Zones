@@ -1,0 +1,49 @@
+body
+{
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+}
+
+*
+{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+// =============================================
+// =============================================
+// =============================================
+
+.section
+{
+  position: relative;
+  width: 100%;
+  height: 3000px;
+  padding: 2rem;
+
+  &.active
+  {
+    background-color: #00b6ff;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}
+.animated
+{
+  display: none;
+  &.show { display: block; }
+}
+
+.hud
+{
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  font-size: 2rem;
+}
